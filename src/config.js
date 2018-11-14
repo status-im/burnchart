@@ -37,5 +37,5 @@ export default {
     "timeout": 1e4
   },
   // The app theme; 'monza' is the default red theme.
-  "theme": "monza"
+  "theme": "status"
 };

@@ -1029,45 +1029,45 @@ ul li {
   padding: 30px;
   font-family: 'MuseoSlab500Regular', serif;
 }
-#app.theme--monza #head {
-  background: #C1041C;
+#app.theme--status #head {
+  background: #4360df;
 }
-#app.theme--monza #head #icon {
-  background: #760211;
-  color: #C1041C;
+#app.theme--status #head #icon {
+  background: #1f3bb6;
+  color: #4360df;
 }
-#app.theme--monza #head .q .icon {
-  color: #C1041C;
+#app.theme--status #head .q .icon {
+  color: #4360df;
 }
-#app.theme--monza #head .q input {
-  background: #760211;
+#app.theme--status #head .q input {
+  background: #1f3bb6;
 }
-#app.theme--monza #head a {
-  color: #e0828e;
+#app.theme--status #head a {
+  color: #a1b0ef;
 }
-#app.theme--monza #head a.active,
-#app.theme--monza #head a:hover {
+#app.theme--status #head a.active,
+#app.theme--status #head a:hover {
   color: #fff;
 }
-#app.theme--monza #head .right {
-  color: #e0828e;
+#app.theme--status #head .right {
+  color: #a1b0ef;
 }
-#app.theme--monza #head .right .button {
-  background: #FFBB2A;
-  color: #C1041C;
+#app.theme--status #head .right .button {
+  background: #008bad;
+  color: #4360df;
 }
-#app.theme--monza #page #content #hero .content .cta a.primary {
-  background: #C1041C;
+#app.theme--status #page #content #hero .content .cta a.primary {
+  background: #4360df;
 }
-#app.theme--monza #page #content #hero .content .cta a.secondary {
-  color: #C1041C;
+#app.theme--status #page #content #hero .content .cta a.secondary {
+  color: #4360df;
 }
-#app.theme--monza #page #content #add .form a {
-  background: #C1041C;
+#app.theme--status #page #content #add .form a {
+  background: #4360df;
 }
-#app.theme--monza #page #content #projects table tr td .project .error {
-  color: #C1041C;
+#app.theme--status #page #content #projects table tr td .project .error {
+  color: #4360df;
 }
-#app.theme--monza #page #content #projects table tr td.action {
-  color: #760211;
+#app.theme--status #page #content #projects table tr td.action {
+  color: #1f3bb6;
 }

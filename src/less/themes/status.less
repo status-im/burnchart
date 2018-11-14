@@ -1,0 +1,88 @@
+#app.theme--status {
+  // Theme colors.
+  @Status: rgba(67, 96, 223, 1);
+  @Incubate: rgba(0,139,173,1);
+  @Embark: rgba(54, 55, 99, 1);
+  @Studio: rgba(94, 193, 47, 1);
+  @Nimbus: rgba(255, 156, 0, 1);
+  @Hardwallet: rgba(127, 68, 223, 1);
+  @background: rgba(238, 242, 245, 1);
+
+  #head {
+    background: @Status;
+
+    #icon {
+      background: darken(@Status, 15%);
+      color: @Status;
+    }
+
+    .q {
+      .icon {
+        color: @Status;
+      }
+
+      input {
+        background: darken(@Status, 15%);
+      }
+    }
+
+    a {
+      color: mix(@Status, #FFF, 50%);
+
+      &.active, &:hover {
+        color: #fff;
+      }
+    }
+
+    .right {
+      color: mix(@Status, #FFF, 50%);
+
+      .button {
+        background: @Incubate;
+        color: @Status;
+      }
+    }
+  }
+
+  #page {
+    #content {
+      #hero {
+        .content {
+          .cta {
+            a {
+              &.primary {
+                background: @Status;
+              }
+
+              &.secondary {
+                color: @Status;
+              }
+            }
+          }
+        }
+      }
+
+      #add {
+        .form {
+          a {
+            background: @Status;
+          }
+        }
+      }
+
+      #projects {
+        table {
+          tr td {
+            .project .error {
+              color: @Status;
+            }
+
+            &.action {
+              color: darken(@Status, 15%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
