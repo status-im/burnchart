@@ -8,7 +8,7 @@ GitHub Burndown Chart as a Service. Answers the question "are my projects on tra
 
 ![image](https://raw.githubusercontent.com/radekstepan/burnchart/master/screenshots.jpg)
 
-## Features NABIL
+## Features
 
 1. Running from the **browser**, apart from GitHub account sign in which uses Firebase backend.
 1. **Private repos**; sign in with your GitHub account.
